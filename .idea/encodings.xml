@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/main/java/com/cerr/curd/controller/EmployeeController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/main/java/com/cerr/curd/service/EmployeeService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/main/java/com/cerr/curd/test/MvcTest.java" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

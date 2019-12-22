@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="classmate-0.8.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/main/resource/lib/classmate-0.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/main/resource/lib/el-api-2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

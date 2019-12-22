@@ -1,0 +1,26 @@
+<!DOCTYPE generatorConfiguration PUBLIC
+        "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+    <context id="simple" targetRuntime="MyBatis3">
+        <commentGenerator>
+            <!-- 不生成注释 -->
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator>
+
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/ssm_crud"
+                        userId="root"
+                        password="root" />
+
+        <!-- 指定JavaBean生成的位置-->
+        <javaModelGenerator targetPackage="com.cerr.curd.bean" targetProject=".\main\java"/>
+        <!-- 指定sql映射文件生成的位置 -->
+        <sqlMapGenerator targetPackage="mapper" targetProject=".\main\resource"/>
+        <!-- 指定dao接口生成的位置 -->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.cerr.curd.dao" targetProject=".\main\java"/>
+        <!-- 指定每个表的生成策略-->
+        <table tableName="tbl_emp" domainObjectName="Employee"/>
+        <table tableName="tnl_dept" domainObjectName="Department"/>
+    </context>
+</generatorConfiguration>
